@@ -13,7 +13,6 @@ from PIL import Image
 class ParksAndRecDataset(Dataset):
     """Parks and Recreation character images dataset."""
     
-    
     def __init__(self, csv_file, root_dir, transform=None):
         """
         Args:
